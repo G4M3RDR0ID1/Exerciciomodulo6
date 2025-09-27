@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Parquímetro Digital</h1>
+    </header>
+    <main>
+        <h2>Tabela de preços</h2>
+            <section>
+                <p>R$1,00 = 30 Minutos</p>
+                <p>R$1,75 = 60 Minutos</p>
+                <p>R$3,00 = 120 Minutos</p>
+                <label for="Tarifa">Tarifa</label>
+                <input type="number" name="valor" id="tarifa" required placeholder="Digite o valor que deseja">
+                <button onclick="parquimetro.pegarTarifa()">Efetuar Pagamento</button>
+            </section>
+            <div>
+                <p>Tempo no Parquímetro</p>
+                <p id="tempoParquimetro">0:00</p>
+                <p>Troco</p>
+                <p id="troco">R$0,00</p>
+            </div>
+    </main>
+</body>
+</html>
