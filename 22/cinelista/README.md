@@ -117,7 +117,7 @@ Este projeto tem fins **educacionais**, sendo utilizado para praticar:
 
 Desenvolvido por **Lucas Lana** 👋
 
-- GitHub: [G4M3RDR0ID1](https://github.com/G4M3RDR0ID1)
+GitHub: [G4M3RDR0ID1](https://github.com/G4M3RDR0ID1)
 
 ---
 
